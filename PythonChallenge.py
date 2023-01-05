@@ -2,7 +2,6 @@ import numpy as np
 import random
 
 def PythonChallenge():
-  
   flag = 0
   list = np.arange(1,10,step=1)
   
@@ -16,8 +15,5 @@ def PythonChallenge():
         flag = 1
      else: 
       print( 'A =',A,'and C =',C)
-       
-  
-  print("Loop is finished! Mission completed :D")
 
 PythonChallenge() 
